@@ -15,6 +15,8 @@
 		B97DF8741C50AD79008DF641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97DF8721C50AD79008DF641 /* LaunchScreen.storyboard */; };
 		B97DF87F1C50AD79008DF641 /* PlanBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DF87E1C50AD79008DF641 /* PlanBoxTests.swift */; };
 		B97DF88A1C50AD79008DF641 /* PlanBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DF8891C50AD79008DF641 /* PlanBoxUITests.swift */; };
+		B97DF8981C50AE02008DF641 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DF8971C50AE02008DF641 /* ThirdViewController.swift */; };
+		B9BBEA991C7083560097F2BD /* DateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BBEA981C7083560097F2BD /* DateTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B97DF8851C50AD79008DF641 /* PlanBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97DF8891C50AD79008DF641 /* PlanBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBoxUITests.swift; sourceTree = "<group>"; };
 		B97DF88B1C50AD79008DF641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97DF8971C50AE02008DF641 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B9BBEA981C7083560097F2BD /* DateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B97DF8701C50AD79008DF641 /* Assets.xcassets */,
 				B97DF8721C50AD79008DF641 /* LaunchScreen.storyboard */,
 				B97DF8751C50AD79008DF641 /* Info.plist */,
+				B97DF8971C50AE02008DF641 /* ThirdViewController.swift */,
+				B9BBEA981C7083560097F2BD /* DateTableViewController.swift */,
 			);
 			path = PlanBox;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				B97DF86C1C50AD79008DF641 /* SecondViewController.swift in Sources */,
 				B97DF8681C50AD79008DF641 /* AppDelegate.swift in Sources */,
+				B97DF8981C50AE02008DF641 /* ThirdViewController.swift in Sources */,
+				B9BBEA991C7083560097F2BD /* DateTableViewController.swift in Sources */,
 				B97DF86A1C50AD79008DF641 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +497,7 @@
 				B97DF8901C50AD79008DF641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B97DF8911C50AD79008DF641 /* Build configuration list for PBXNativeTarget "PlanBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				B97DF8931C50AD79008DF641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B97DF8941C50AD79008DF641 /* Build configuration list for PBXNativeTarget "PlanBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +515,7 @@
 				B97DF8961C50AD79008DF641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
