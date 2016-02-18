@@ -22,20 +22,31 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="41"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="358" width="400" height="84"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1qD-8z-Kwv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2Ei-DN-IZu"/>
+                            <constraint firstItem="1qD-8z-Kwv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="338" id="5Cs-fV-5ut">
+                                <variation key="heightClass=regular-widthClass=compact" constant="357"/>
+                            </constraint>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="1qD-8z-Kwv"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2Ei-DN-IZu"/>
+                                <exclude reference="5Cs-fV-5ut"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="1qD-8z-Kwv"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2Ei-DN-IZu"/>
+                                <include reference="5Cs-fV-5ut"/>
                             </mask>
                         </variation>
                     </view>
